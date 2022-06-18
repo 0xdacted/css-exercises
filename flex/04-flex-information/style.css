@@ -1,6 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
+
  
 }
 
@@ -54,10 +55,6 @@ text-align: center;
 margin: 0 52px;
 }
 
-
-
-
-
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -70,4 +67,34 @@ margin: 0 52px;
   justify-content: center;
   background: #eee;
 }
+
+/* SOLUTION 
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  margin-bottom: 32px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+*/
 
