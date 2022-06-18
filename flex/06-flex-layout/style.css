@@ -32,8 +32,7 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 2px;
- 
+  padding: 5px;
 }
 
 .content {
@@ -49,6 +48,8 @@ text-align: center;
   display: flex;
   gap: 15px;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
  
 }
 
