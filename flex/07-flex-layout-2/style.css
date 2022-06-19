@@ -25,34 +25,34 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-
+flex-shrink: 0;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   padding: 16px;
+  
 }
 
 .content {
   display: flex;
-  
+  flex: 1;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
   gap: 20px;
 }
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 100px;
+  width: 200px;
   padding: 20px;
   margin: 15px;
-  
+ 
 }
 
 a:link {
